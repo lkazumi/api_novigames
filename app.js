@@ -51,4 +51,5 @@ app.use((error, req, res, next) => {
     });
 });
 
+console.log("Servidor iniciado na porta 8082: http://localhost:8082/")
 module.exports = app;
